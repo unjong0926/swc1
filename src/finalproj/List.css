@@ -1,0 +1,14 @@
+.List .searchbar {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  box-sizing: border-box;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Dovemayo_gothic';
+}
+
+.List .searchbar:focus {
+  outline: none;
+  border-bottom: 1px solid darkblue;
+}

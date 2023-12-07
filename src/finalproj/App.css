@@ -1,0 +1,48 @@
+body {
+  margin: 0px;
+}
+
+@font-face {
+  font-family: 'Dovemayo_gothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.App {
+  max-width: 500px;
+  width: 100%;
+  margin: 20px auto;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 3px solid darkblue;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#Diary {
+  margin-bottom: 0px;
+  color: black;
+  font-family: 'Dovemayo_gothic';
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.App .Home {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.App .Home img {
+  width: 50px;
+  height: 50px;
+  padding-bottom: 30px;
+}
+
+.App p {
+  text-align: center;
+}

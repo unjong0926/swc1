@@ -1,0 +1,30 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.5px solid darkblue;
+}
+
+.Header .Main {
+  text-decoration: none;
+  color: black;
+  font-family: 'Dovemayo_gothic';
+}
+
+.Header .Date {
+  text-align: center;
+  flex-grow: 1;
+  font-family: 'Dovemayo_gothic';
+}
+
+.Header .Back {
+  width: 15px;
+  height: 15px;
+}
+
+@font-face {
+  font-family: 'Dovemayo_gothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
